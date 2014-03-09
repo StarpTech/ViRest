@@ -155,7 +155,7 @@ server.listen(port);
 hosts.forEach(function (vHost, index) {
 		var routes = vHost.routes;
 		var hostname = vHost.host;
-		console.info('Start VirtualHost ['+ hostname.toString().info + '] - ' + vHost.description.toString().help);
+		console.info('Start VirtualHost ['+ hostname.toString().info + ':' + port.toString().info + '] - ' + vHost.description.toString().help);
 
 		var allRoutes = {};
 		for (var routeName in routes) {
