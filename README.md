@@ -1,7 +1,7 @@
 ViRest
 ======
 
-ViRest creates a simple virtual JSON-REST Interface to test your frontend again a fault-resilient backend for development purpose.
+ViRest creates a simple virtual JSON-REST Interface to test your frontend against a fault-resilient backend for development purpose.
 
 ![](https://github.com/StarpTech/ViRest/raw/master/virest.png)
 
