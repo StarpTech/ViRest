@@ -9,7 +9,7 @@ ViRest creates a simple virtual JSON-REST Interface to test your frontend again 
 ```
 ---
 #VirtualHost 'books.de'
-- description: Represents the virtual REST Endpoint for collections
+- description: Represents the virtual JSON-REST Endpoint for books.de
   host : books.de
   routes:
    books:
