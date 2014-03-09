@@ -1,0 +1,22 @@
+{
+  "name": "ViRest",
+  "version": "0.0.1",
+  "description": "ViRest creates a simple virtual JSON-REST interface to test your frontend again a fault-resilient backend for development purpose.",
+  "main": "index.js",
+  "dependencies" : {
+    "express"   :  "3.5.x",
+    "mkdirp" :  ">= 0.3.5",
+    "express-vhost" :  ">= 0.1.1",
+    "async" : ">= 0.2.10",
+    "js-yaml" : ">= 3.0.2",
+    "colors" : "0.x.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "author": "Dustin Deus",
+  "license": "MIT"
+}

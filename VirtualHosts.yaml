@@ -1,0 +1,27 @@
+---
+#Begin of an YAML file *required*
+- description: Represents the virtual JSON-REST Endpoint.
+  host : dev.project1.de
+  routes:
+   collection:
+   #All GET Requests
+    - GET:
+       - name: Get all collection
+         url: /collection/All
+         ressource: get-all.yaml
+       - name: Get one collection
+         url: /collection/Get
+         ressource: get-one.yaml
+    - POST:
+        - name: Create new collection
+          url: /collection/create
+          ressource: create.yaml
+   recipes:
+   #All GET Requests
+    - GET:
+       - name: Get all recipes
+         url: /recipes/All
+         ressource: get-all.yaml
+       - name: Get one recipe
+         url: /recipes/Get
+         ressource: get-one.yaml
