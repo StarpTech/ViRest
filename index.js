@@ -52,6 +52,7 @@ var createRestDirectoryStructure = function (service, routeName) {
 	});
 };
 
+
 var RestFactory = function(rootDir, routes) {
     	var app = express();
     	//To deliver static files
